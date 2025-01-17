@@ -16777,7 +16777,7 @@ const Zx = [{
 }, {
     number: "100%",
     label: "Satisfaction Rate",
-    description: "from our skids",
+    description: "from our s",
     icon: P1
 }, {
     number: "0",
@@ -16808,7 +16808,7 @@ function ek() {
                 className: "text-4xl font-bold text-center mb-4",
                 children: ["Trusted by ", m.jsx("span", {
                     className: "text-primary glow-text",
-                    children: "skids"
+                    children: "s"
                 })]
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
@@ -17056,7 +17056,7 @@ function hk() {
             className: "container mx-auto",
             children: [m.jsx("h2", {
                 className: "text-4xl font-bold text-center mb-4 glow-text",
-                children: "What Our Skids Say"
+                children: "What Our s Say"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
                 children: "Join thousands of satisfied skids who trust Open Nova Admin for skidding needs"
@@ -17181,7 +17181,7 @@ function gk() {
                 children: "Choose Your Version"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
-                children: "Select the perfect version for your needs and skid the heck of Open Nova Admin"
+                children: "Select the perfect version for your needs and skid the heck out of Open Nova Admin"
             }), m.jsx("div", {
                 className: "grid md:grid-cols-2 gap-8 max-w-5xl mx-auto",
                 children: Object.entries(mk).map(([e, t]) => m.jsx(pk, {
