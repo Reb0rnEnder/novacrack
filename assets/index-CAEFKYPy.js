@@ -17109,7 +17109,7 @@ function pk({
             className: `w-full py-2 px-4 rounded-full relative overflow-hidden ${o?"glossy-button hover:scale-105 transition-transform":"bg-secondary hover:bg-secondary/80 transition-colors"}`,
             children: m.jsx("span", {
                 className: "relative z-10",
-                children: "Download Now"
+                children: "Download"
             })
         })]
     })
