@@ -5,30 +5,21 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>⚡️ Open Nova Admin</title>
-    <link href="https://cdn.sellix.io/static/css/embed.css" rel="stylesheet" />
     <script type="module" crossorigin src="/assets/index-CAEFKYPy.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-oB68xdpE.css">
   </head>
   <body>
     <div id="root"></div>
-    <script src="https://cdn.sellix.io/static/js/embed.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        if (window.Sellix) {
-          window.Sellix.init();
-        }
-      });
-
-      // Re-initialize Sellix when new buttons are added
-      const observer = new MutationObserver(function() {
-        if (window.Sellix) {
-          window.Sellix.init();
-        }
-      });
-
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true
+      document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("click", function(e) {
+          const productId = e.target.getAttribute("data-sellix-product");
+          if (productId === "latest" || productId === "archive") {
+              e.preventDefault();
+              e.stopPropagation();
+              window.open(`/${productId}.rbxm`, "_blank");
+          }
+        }, true);
       });
     </script>
   </body>
