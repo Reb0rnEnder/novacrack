@@ -16759,9 +16759,9 @@ function Xx() {
     })
 }
 const Zx = [{
-    number: "0",
+    number: "69420",
     label: "Active Users",
-    description: "customers using OpenNova Admin daily fr",
+    description: "customers using OpenNova Admin daily",
     icon: N1
 }, {
     number: "ALL",
@@ -16771,10 +16771,10 @@ const Zx = [{
 }, {
     number: "100%",
     label: "Satisfaction Rate",
-    description: "from our s",
+    description: "from our skids",
     icon: P1
 }, {
-    number: "0",
+    number: "ONE GAZILLION",
     label: "Scripts Executed",
     description: "successful script executions daily",
     icon: zp
