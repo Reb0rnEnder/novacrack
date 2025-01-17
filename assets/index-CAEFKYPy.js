@@ -16802,7 +16802,7 @@ function ek() {
                 className: "text-4xl font-bold text-center mb-4",
                 children: ["Trusted by ", m.jsx("span", {
                     className: "text-primary glow-text",
-                    children: "s"
+                    children: "skids"
                 })]
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
