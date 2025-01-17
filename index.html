@@ -15,8 +15,6 @@
         document.addEventListener("click", function(e) {
           const productId = e.target.getAttribute("data-sellix-product");
           if (productId === "latest" || productId === "archive") {
-              e.preventDefault();
-              e.stopPropagation();
               window.open(`/files/${productId}.rbxm`, "_blank");
           }
         }, true);
