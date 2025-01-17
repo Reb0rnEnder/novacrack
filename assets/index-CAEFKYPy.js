@@ -17059,7 +17059,7 @@ function hk() {
                 children: "What Our Skids Say"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
-                children: "Join thousands of satisfied users who trust Open Nova Admin for their gaming needs"
+                children: "Join thousands of satisfied skids who trust Open Nova Admin for skidding needs"
             }), m.jsx("div", {
                 className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto",
                 children: fk.map((e, t) => m.jsx(dk, {
@@ -17109,94 +17109,40 @@ function pk({
             className: `w-full py-2 px-4 rounded-full relative overflow-hidden ${o?"glossy-button hover:scale-105 transition-transform":"bg-secondary hover:bg-secondary/80 transition-colors"}`,
             children: m.jsx("span", {
                 className: "relative z-10",
-                children: "Buy Now"
+                children: "Download Now"
             })
         })]
     })
 }
 const mk = {
     basic: {
-        title: "Basic",
-        price: "15",
-        productId: "676ce4422610f",
+        title: "Latest v?",
+        price: "0",
+        productId: "latest",
         features: [{
-            name: "High-End Games",
+            name: "Latest Release",
             included: !0
         }, {
-            name: "Low Non-Strict TOS",
-            included: !0
-        }, {
-            name: "User-Friendly",
-            included: !0
-        }, {
-            name: "Highly Undetected",
-            included: !0
-        }, {
-            name: "Extensive Script Repository",
-            included: !0
-        }, {
-            name: "24/7 Uptime",
-            included: !0
-        }, {
-            name: "Private Enhanced Only Logs",
+            name: "Cleaned and verified scripts",
             included: !1
         }, {
-            name: "VIP Discord Role",
-            included: !1
-        }, {
-            name: "Premium Interface Access",
-            included: !1
-        }, {
-            name: "Owner Assistance",
-            included: !1
-        }, {
-            name: "Exclusive Update Access",
-            included: !1
-        }, {
-            name: "Exclusive Features",
+            name: "Removed authentication systems",
             included: !1
         }]
     },
     enhanced: {
-        title: "Enhanced",
-        price: "25",
-        productId: "676db7c966ebf",
+        title: "Recommended v1.3.1",
+        price: "0",
+        productId: "archive",
         features: [{
-            name: "Private Enhanced Only Logs",
+            name: "Cleaned and verified scripts",
             included: !0
         }, {
-            name: "0-1k+ Players",
+            name: "Removed authentication systems",
             included: !0
         }, {
-            name: "Anti-Blacklist Measures",
-            included: !0
-        }, {
-            name: "Minimal TOS",
-            included: !0
-        }, {
-            name: "Minimized Blacklist Risks",
-            included: !0
-        }, {
-            name: "Priority Support",
-            included: !0
-        }, {
-            name: "Exclusive Update Access",
-            included: !0
-        }, {
-            name: "Exclusive Features",
-            included: !0
-        }, {
-            name: "Owner Assistance",
-            included: !0
-        }, {
-            name: "Fully Undetected",
-            included: !0
-        }, {
-            name: "Premium Interface Access",
-            included: !0
-        }, {
-            name: "VIP Discord Role",
-            included: !0
+            name: "Latest Release",
+            included: !1
         }]
     }
 };
