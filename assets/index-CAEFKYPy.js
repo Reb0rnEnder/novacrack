@@ -17178,10 +17178,10 @@ function gk() {
             className: "container mx-auto relative z-10",
             children: [m.jsx("h2", {
                 className: "text-4xl font-bold text-center mb-4 slide-in glow-text",
-                children: "Choose Your Plan"
+                children: "Choose Your Version"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
-                children: "Select the perfect plan for your needs and unlock the full potential of Open Nova Admin"
+                children: "Select the perfect version for your needs and skid the heck of Open Nova Admin"
             }), m.jsx("div", {
                 className: "grid md:grid-cols-2 gap-8 max-w-5xl mx-auto",
                 children: Object.entries(mk).map(([e, t]) => m.jsx(pk, {
