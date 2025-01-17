@@ -16546,7 +16546,7 @@ function Qx() {
             className: "container mx-auto px-4 h-16 flex items-center justify-between",
             children: [m.jsx("span", {
                 className: "text-xl font-bold text-primary glow-text",
-                children: "Open Nova Admin"
+                children: "OpenNova Admin"
             }), m.jsxs("div", {
                 className: "flex gap-4",
                 children: [m.jsx(pt, {
@@ -16563,13 +16563,7 @@ function Qx() {
                     variant: "ghost",
                     className: "rounded-full",
                     onClick: () => n("pricing"),
-                    children: "Pricing"
-                }), m.jsxs(pt, {
-                    className: "glossy-button rounded-full",
-                    onClick: () => t(!0),
-                    children: [m.jsx(Ii, {
-                        className: "w-4 h-4 mr-2"
-                    }), "Redeem Key"]
+                    children: "Downloads"
                 })]
             })]
         }), m.jsx(qx, {
@@ -16697,7 +16691,7 @@ function Jx() {
             className: "container mx-auto text-center relative z-10",
             children: [m.jsx("h1", {
                 className: "text-8xl font-bold mb-8 tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-primary/50 glow-text",
-                children: "Open Nova Admin"
+                children: "OpenNova Admin"
             }), m.jsx("p", {
                 className: "text-xl text-muted-foreground max-w-2xl mx-auto mb-12",
                 children: "Nova Admin's source made open!"
@@ -16767,7 +16761,7 @@ function Xx() {
 const Zx = [{
     number: "0",
     label: "Active Users",
-    description: "customers using Open Nova Admin daily fr",
+    description: "customers using OpenNova Admin daily fr",
     icon: N1
 }, {
     number: "ALL",
@@ -17059,7 +17053,7 @@ function hk() {
                 children: "What Our s Say"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
-                children: "Join thousands of satisfied skids who trust Open Nova Admin for skidding needs"
+                children: "Join thousands of satisfied skids who trust OpenNova Admin for skidding needs"
             }), m.jsx("div", {
                 className: "grid md:grid-cols-3 gap-8 max-w-6xl mx-auto",
                 children: fk.map((e, t) => m.jsx(dk, {
@@ -17181,7 +17175,7 @@ function gk() {
                 children: "Choose Your Version"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
-                children: "Select the perfect version for your needs and skid the heck out of Open Nova Admin"
+                children: "Select the perfect version for your needs and skid the heck out of OpenNova Admin"
             }), m.jsx("div", {
                 className: "grid md:grid-cols-2 gap-8 max-w-5xl mx-auto",
                 children: Object.entries(mk).map(([e, t]) => m.jsx(pk, {
@@ -17758,8 +17752,8 @@ const Vm = v.forwardRef(({
 }));
 Vm.displayName = Fm.displayName;
 const Hk = [{
-    question: "What is Open Nova Admin?",
-    answer: "Open Nova Admin is an Open Sourced version of Nova Admin from \"https://nova.remium.wtf/\"."
+    question: "What is OpenNova Admin?",
+    answer: "OpenNova Admin is an Open Sourced version of Nova Admin from \"https://nova.remium.wtf/\"."
 }, {
     question: "Do I have to download anything?",
     answer: "Obviously... Yes the source and Roblox Studio if you haven't got it installed."
