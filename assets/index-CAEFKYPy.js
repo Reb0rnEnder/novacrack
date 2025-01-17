@@ -17050,7 +17050,7 @@ function hk() {
             className: "container mx-auto",
             children: [m.jsx("h2", {
                 className: "text-4xl font-bold text-center mb-4 glow-text",
-                children: "What Our s Say"
+                children: "What Our skids Say"
             }), m.jsx("p", {
                 className: "text-center text-muted-foreground mb-16 max-w-2xl mx-auto",
                 children: "Join thousands of satisfied skids who trust OpenNova Admin for skidding needs"
