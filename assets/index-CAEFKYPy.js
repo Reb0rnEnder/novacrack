@@ -17032,7 +17032,7 @@ const fk = [{
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=faces"
 }, {
     name: "metro",
-    role: "Nova Admin Co-Founder",
+    role: "Nova Admin Founder",
     content: "Get this nigga bro\nAnd he’s on our dick since he knows his reputation has the value of a sperm dump",
     image: "https://cdn.discordapp.com/avatars/1257729658829668386/97bec47cf49c03c29be23af6ce21bd54.webp?size=256"
 }, {
